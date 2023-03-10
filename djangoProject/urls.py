@@ -17,5 +17,5 @@ from django.urls import path
 from . import views
 
 urlpatterns = [
-    path('download_twitter_video/', views.download_twitter_video, name='download_twitter_video', namespace='myapp'),
+    path('download_twitter_video/', views.download_twitter_video, name='download_twitter_video', namespace='dler'),
 ]
