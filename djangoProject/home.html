@@ -9,9 +9,9 @@
     </header>
 
     <main>
-        <form method="POST">
+        <form method="GET" action="{% url 'download_twitter_video' %}">
             {% csrf_token %}
-            <input type="text" name="user_input">
+            <input type="text" name="twitter_link">
             <input type="submit" value="Submit">
         </form>
     </main>
