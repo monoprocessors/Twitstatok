@@ -31,7 +31,7 @@ def download_twitter_video(twitter_link):
 
 
 # Example usage:
-download_twitter_video('https://<TWITTER_LINK>')
+# download_twitter_video('https://<TWITTER_LINK>')
 
 # requests
 #
